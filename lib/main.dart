@@ -12,7 +12,7 @@ class MyApp extends StatelessWidget {
     );
 
     return MaterialApp(
-      initialRoute: '/',
+      initialRoute: '/login',
       theme: themeData,
       routes: routes
     );

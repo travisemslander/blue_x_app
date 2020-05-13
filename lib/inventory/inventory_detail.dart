@@ -24,7 +24,7 @@ class InventoryDetailState extends State<InventoryDetail> {
 
     precacheImage(_itemImageAsset, context, onError: (e, stackTrace) {
       setState(() {
-        _itemImageAsset = AssetImage("assets/tink-circle-512.png");
+        _itemImageAsset = AssetImage("assets/blue_x_logo.png");
       });
     });
 

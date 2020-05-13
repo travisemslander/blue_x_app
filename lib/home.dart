@@ -9,13 +9,13 @@ class HomePage extends StatelessWidget {
       home: new Scaffold(
         appBar: new AppBar(
           title: new Text(
-            'T-INK',
+            'Blue X',
           ),
         ),
         drawer: new Drawer(
             child: ListView(padding: EdgeInsets.zero, children: <Widget>[
           DrawerHeader(
-            child: Text('T-INK'),
+            child: Text('Blue X'),
             decoration: BoxDecoration(color: Theme.of(context).primaryColor),
           ),
           ListTile(

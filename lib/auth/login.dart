@@ -46,7 +46,7 @@ class LoginPage extends StatelessWidget {
     );
 
     final logo = Image.asset(
-      'assets/tink-circle-512.png',
+      'assets/blue_x_logo.png',
       fit: BoxFit.contain,
       height: 160.0,
     );
